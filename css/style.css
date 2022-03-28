@@ -16,11 +16,10 @@ html, body{
 }
 
 body{
-    background: rgb(84,84,84);
     background: linear-gradient(180deg, rgba(84,84,84,1) 0%, rgba(0,0,0,1) 60%);
     background-repeat: no-repeat;
-    width: 60%;
-    margin: 0 auto;
+    width: auto;
+    margin: 0 10%;
     text-align: center;
 }
 
@@ -93,12 +92,17 @@ span{
 
 .social{
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
+    
 }
 
 .social-links li{
     display: inline;
     
+}
+
+.social-links li a{
+    text-decoration: none;
 }
 
 .social-links li a img{
