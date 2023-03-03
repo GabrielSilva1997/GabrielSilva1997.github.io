@@ -1,30 +1,30 @@
 <div align="center" id="top"> 
-  <img src="./src/assets/logo.svg" alt="02 Dtmoney" />
+  <img src="./src/assets/Logo.svg" alt="To Do List" />
 </div>
 
 <hr/>
-<br>
 
 ## About
 
-This applications is an personal finance manager.
+A aplicação consiste em um 'To Do list'. Foi proposto como desafio ao fim do módulo 1 da trilha de ReactJs do ignite. 
 
 ## Screenshots
 
 <div align="center" id="top"> 
-  <img src="./src/assets/screen2.png" alt="02 Dtmoney" />
+  <img src="./src/assets/screen2.png" alt="To Do list" />
 </div>
 <br/>
 <br/>
 <div align="center" id="top"> 
-  <img src="./src/assets/screen1.png" alt="01 Dtmoney" />
+  <img src="./src/assets/screen1.png" alt="To Do list" />
 </div>
 
 ## Features
 
-- Table with personal finance data with name, amount, category and date.
-- Summary cards with incomes, outcomes and total.
-- Button that Create a new transaction using a beautiful modal.
+- Adicionar uma nova tarefa
+- Marcar e desmarcar uma tarefa como concluída
+- Remover uma tarefa da listagem
+- Mostrar o progresso de conclusão das tarefas
 
 ## Technologies
 
@@ -32,25 +32,3 @@ The following tools were used in this project:
 
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [MirageJS](https://miragejs.com/)
-- [Polished](https://polished.js.org/)
-- [Axios](https://github.com/axios/axios)
-- [Styled Componensts](https://styled-components.com/)
-
-## Requirements
-
-Before starting 🏁, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
-
-## Starting
-
-```bash
-# Clone this project
-$ git clone https://github.com/pedrohconrado/dtmoney
-# Access
-$ cd dtmoney
-# Install dependencies
-$ yarn
-# Run the project
-$ yarn start
-# The server will initialize in the <http://localhost:3000>
-```
